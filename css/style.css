@@ -166,7 +166,7 @@ footer h2{
  
  /*MEDIA QUERIES @321******** IPAD SCREENS    ****/
  
- @media(min-width: 321px) {
+ @media(min-width: 376px) {
      .nav a {
          display: inline-block;
          width: 175px;
