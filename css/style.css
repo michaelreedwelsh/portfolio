@@ -5,5 +5,255 @@ font-family: 'Droid Serif', serif;
 
 *******************************/
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	margin:0px;
+	padding:0px;
+	margin-left:0px;
+	padding-left:0px;
+	padding-top:0px;
+	left:0px;
 }
+body {
+    background-color: rgb(245,245,245);
+}
+ul {
+    padding: 0;
+}
+h1 {
+    font-family: "Nunito", sans-serif;
+    text-shadow: 1px 1px 5px;
+}
+
+/*LINK CONFIGURATIONS******/
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:visited {
+    color: black;
+}
+
+/*NAV BAR*********************/
+
+.nav li:hover {
+    box-shadow: 0 0 7px rgb(150, 150, 150);
+}
+.nav li:active {
+    background-color: gray;
+}
+.nav ul {
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+.nav li {
+    padding: 5px;
+    background-color: white;
+    font-family: "Droid Serif", serif;
+    font-weight: bold;
+    display: block;
+    list-style: none;
+    text-align: center;
+    margin: 10px 10px;
+    
+}
+.nav {
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+}
+
+ /*PROFILE IMAGE SIZING AND SHADOW ALSO THE PARAGRAPH*/
+ 
+.profile {
+     width: 80%;
+     text-align: center;
+     margin: 35px auto;
+     border-radius: 15px;
+     box-shadow: 0 0 10px 2px;
+     display: block;
+     overflow: hidden;
+}
+.me p{
+    font-family: "Nunito", serif;
+    width: 90%;
+    text-align: center;
+    line-height: 1em;
+    margin: 0 auto;
+}
+
+/*PORTFOLIO STUFF ***************/
+
+.portfolio {
+    margin: 100px auto 0;
+    max-width: 90%;
+    text-align: center;
+    font-family: "Droid Serif", serif;
+}
+.portfolio img {
+    width:90%;
+    margin: 40px auto 20px;
+}
+.portfolio h3 {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+}
+.portfolio p {
+    font-size: .9em;
+}
+.portfolio img:hover {
+    box-shadow: 0 0 10px;
+}
+ /*SKILLLLLLLLLS SECTION*********/
+ 
+ .skills {
+    margin: 100px auto 0;
+    max-width: 90%;
+    text-align: center;
+    font-family: "Droid Serif", serif;
+ }
+ .skills p {
+     margin-top: 15px;
+     font-size: .9em;
+ }
+ .skills h3 {
+    text-decoration: underline;
+    font-size: 1em;
+    margin: 20px auto 5px;
+ }
+
+ /*SOCIAL MEDIA ICONS AND FOOTER********/
+ 
+ 
+footer {
+        box-shadow: 0 -2px 8px;
+        background-color: gray;
+        margin: 100px auto 10px;
+        bottom: 0;
+		text-align: center;
+		font-size: .85em;
+		max-height: 250px;
+}
+.social {
+		text-align: center;
+		float: none;
+		margin-bottom: 5px;
+		width: 40px;
+        height: 40px;
+        padding: 2px;
+	}
+footer p {
+		text-align: center;
+		display: block;
+		float: none;
+		padding-bottom: 15px;
+}
+footer h2{
+    padding-top: 20px;
+}
+.largefoot {
+    display: none;
+}
+
+/*CLEARFIX*******/
+ .clearfix:after {
+     content: " ";
+     clear: both;
+     display: table;
+ }
+ 
+ /*MEDIA QUERIES @321******** IPAD SCREENS    ****/
+ 
+ @media(min-width: 321px) {
+     .nav a {
+         display: inline-block;
+         width: 175px;
+     }
+     
+     .me {
+         display: inline-block;
+     }
+     .profile {
+         width: 35%;
+         float: right;
+         margin-right: 45px
+     }
+     .me p{
+         float: left;
+         width: 45%;
+         margin: 40px 0 0 40px;
+         text-align: left;
+     }
+     .portfolio {
+         max-width: 100%;
+         overflow: hidden;
+         clear: both;
+     }
+     
+     .folio {
+         display: inline-block;
+         width: 45%;
+         overflow: hidden;
+         clear: both;
+         margin: 0 auto;
+         padding: 0;
+         vertical-align: top;
+     }
+     .folio p {
+         padding: 0 5px;
+     }
+    
+     
+      /*FOOTER PROBLEMS***********/
+      
+     footer {
+         line-height: 1em;
+         width: 100%;
+         float: left;
+         overflow: hidden;
+     }
+     .fleft {
+         display: inline-block;
+         float: left;
+         width: 50%;
+     }
+     .fright {
+         display: inline-block;
+         float: right;
+         width: 50%;
+     }
+     .largefoot {
+         display: inline-block;
+         margin: auto auto;
+     }
+     .largefoot li:hover {
+        box-shadow: 0 0 7px rgb(0, 0, 0);
+        background-color: white;
+    }
+    .largefoot li:active {
+        background-color: gray;
+    }
+    .largefoot ul {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+    }
+    .largefoot li {
+        padding: 10px 25px;
+        background-color: white;
+        font-family: "Droid Serif", serif;
+        font-weight: bold;
+        display: block;
+        list-style: none;
+        text-align: center;
+        margin: 10px 10px;
+     }
+     #smallhome {
+         display: none;
+     }
+ }
+  @media(min-width:769){
+      
+  }
