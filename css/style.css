@@ -21,7 +21,7 @@ ul {
 }
 h1 {
     font-family: "Nunito", sans-serif;
-    text-shadow: 1px 1px 5px;
+    text-shadow: 1px 1px 2px;
 }
 
 /*LINK CONFIGURATIONS******/
@@ -166,7 +166,11 @@ footer h2{
  
  /*MEDIA QUERIES @321******** IPAD SCREENS    ****/
  
+<<<<<<< HEAD
  @media(min-width: 376px) {
+=======
+ @media(min-width: 426px) {
+>>>>>>> master
      .nav a {
          display: inline-block;
          width: 175px;
@@ -204,6 +208,9 @@ footer h2{
      .folio p {
          padding: 0 5px;
      }
+     .skills p {
+         padding: 0 60px;
+     }
     
      
       /*FOOTER PROBLEMS***********/
@@ -223,6 +230,7 @@ footer h2{
          display: inline-block;
          float: right;
          width: 50%;
+         margin: auto auto;
      }
      .largefoot {
          display: inline-block;
@@ -248,12 +256,63 @@ footer h2{
         display: block;
         list-style: none;
         text-align: center;
-        margin: 10px 10px;
+     }
+     .largefoot a {
+         text-align: center;
+         margin: 5px;
      }
      #smallhome {
          display: none;
      }
  }
-  @media(min-width:769){
+ 
+ /*MONITORSSSSS**************/
+ 
+  @media(min-width:769px) {
+      h1 {
+          font-size: 2em;
+          float: left;
+          margin-left: 35px;
+      }
+      .nav ul {
+        float: right;
+          margin-top: 20px;
+          width: 50%;
+      }
+      .nav a {
+          max-width: 20%;
+          vertical-align: top;
+      }
+      .me p {
+          line-height:1.5em;
+          font-size: 1.2em;
+      }
+      .profile {
+          width: 40%;
+      }
+      .folio {
+          width: 32%;
+          display: inline-block;
+      }
+      footer {
+          
+      }
+      .skills p {
+          padding: 0 25%;
+      }
+      .largefoot li {
+          margin: auto auto;
+      }
+      .largefoot a {
+          margin: 72px 5px;
+          display: inline-block;
+          }
+        .fleft {
+            width:40%;
+        }
+        .fright{
+            width: 60%;
+        }
+        }
       
-  }
+      
